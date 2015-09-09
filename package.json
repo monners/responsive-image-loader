@@ -1,0 +1,23 @@
+{
+  "name": "resonsive-image-loader",
+  "version": "1.0.0",
+  "description": "A module for lazy loading and hot swapping responsive images",
+  "main": "responsive-imagery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monners/responsive-image-loader.git"
+  },
+  "keywords": [
+    "responsive",
+    "images"
+  ],
+  "author": "Joshua Moncrieff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monners/responsive-image-loader/issues"
+  },
+  "homepage": "https://github.com/monners/responsive-image-loader"
+}
