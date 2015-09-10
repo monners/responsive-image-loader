@@ -47,7 +47,7 @@ var hasSameBackgroundImage = function (el, url) {
 var applyImage = function (el, url) {
     // If no backgroundImage, apply backgroundImage
     if (!hasBackgroundImage(el)) {
-        el.style.backgroundImage = 'url(' + url + ')';
+        el.style.backgroundImage = 'url("' + url + '")';
         return;
 
     // If there's already a backgroudImage, and it's the same as the responsive url, do nothing
@@ -57,7 +57,7 @@ var applyImage = function (el, url) {
 
     // Otherwise, the responsive url is new, and the image should be swapped
     } else {
-        el.style.backgroundImage = 'url(' + url + ')';
+        el.style.backgroundImage = 'url("' + url + '")';
         return;
     }
 };
